@@ -1,12 +1,12 @@
 pkg_name=corretto11
 pkg_origin=core
-pkg_version=11.0.10.9.1
+pkg_version=11.0.13.8.1
 pkg_description=('Corretto is a build of the Open Java Development Kit (OpenJDK) with long-term support from Amazon.')
 pkg_license=("GPL-2.0-only")
 pkg_upstream_url=https://aws.amazon.com/corretto/
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_source=https://corretto.aws/downloads/resources/${pkg_version}/amazon-corretto-${pkg_version}-linux-x64.tar.gz
-pkg_shasum=bf9380ee0cdd78fafb6d0cdfa0c1a97baaaec44432a15c8c2f296696ad9ed631
+pkg_shasum=99a3a60556db2ad3fd04b1b5ef9e31f035cf1ff3d88286c548b4b58971986452
 pkg_dirname="amazon-corretto-${pkg_version}-linux-x64"
 pkg_filename="corretto-${pkg_version}_linux-x64_bin.tar.gz"
 pkg_deps=(
